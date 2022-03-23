@@ -1,7 +1,5 @@
 # Red Hat Enterprise Linux 9 Administration
 
-
-
 This is the code repository for [Red Hat Enterprise Linux 9 Administration](TBD), published by Packt.
 
 **Master Linux administration skills and prepare for the RHCSA certification exam**
