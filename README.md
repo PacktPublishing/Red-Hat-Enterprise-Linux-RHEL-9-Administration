@@ -28,16 +28,16 @@ All of the code is organized into folders. For example, Chapter05.
 The code will look like the following:
 
 ```
-[root@rhel8 ~]# useradd user01
-[root@rhel8 ~]# grep user01 /etc/passwd
+[root@rhel9 ~]# useradd user01
+[root@rhel9 ~]# grep user01 /etc/passwd
 user01:x:1001:1001::/home/user01:/bin/bash
-[root@rhel8 ~]# id user01
+[root@rhel9 ~]# id user01
 uid=1001(user01) gid=1001(user01) groups=1001(user01)
 
 ```
 
 **Following is what you need for this book:**
-This book is for IT professionals or students who want to start a career in Linux administration and anyone who wants to take the RHCSA 8 certification exam. Basic knowledge of Linux and familiarity with the Linux command-line is necessary.
+This book is for IT professionals or students who want to start a career in Linux administration and anyone who wants to take the RHCSA 9 certification exam. Basic knowledge of Linux and familiarity with the Linux command-line is necessary.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-19).
 
@@ -45,7 +45,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter | Software required                           | OS required                        |
 | ------- | ------------------------------------------- | ---------------------------------- |
-| 1-19    | Red Hat Enterprise Linux 8                  | Windows, Mac OS X, and Linux (Any) |
+| 1-19    | Red Hat Enterprise Linux 9                  | Windows, Mac OS X, and Linux (Any) |
 | 1-19    | Oracle VM VirtualBox or Any Virtual Machine | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781800569829_ColorImages.pdf).
