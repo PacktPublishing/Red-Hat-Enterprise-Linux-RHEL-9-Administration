@@ -1,0 +1,29 @@
+---
+- hosts: all
+  user: root
+  tasks:
+    - name: Install httpd package
+      package:
+        name: httpd
+        state: installed
+
+    - name: Start http service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+    - name: Open Firewall port http
+      firewalld:
+        service: http
+        permanent: true
+        state: enabled
+        immediate: yes
+
+    - name: Open Firewall port https
+      firewalld:
+        service: https
+        permanent: true
+        state: enabled
+        immediate: yes
+
