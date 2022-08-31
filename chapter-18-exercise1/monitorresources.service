@@ -1,0 +1,6 @@
+[Unit]
+Description=Monitor system resources
+
+[Service]
+Type=oneshot
+ExecStart=/root/myresources.sh

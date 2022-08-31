@@ -1,0 +1,23 @@
+FROM registry.access.redhat.com/ubi8/python-38
+MAINTAINER RHEL8 Student <student@redhat.com>
+
+LABEL name="yq image" \
+  maintainer="student _AT_ redhat.com" \
+  vendor="Risu" \
+  version="1.0.0" \
+  release="1" \
+  summary="yq execution container" \
+  description="Runs yq"
+
+ENV USER_NAME=risu \
+  USER_UID=10001 \
+  LC_ALL=en_US.utf8
+
+RUN pip3 install --upgrade pip --no-cache-dir && \
+    pip3 install --upgrade yq --no-cache-dir
+
+
+USER 10001
+VOLUME /data
+ENTRYPOINT ["/opt/app-root/bin/yq"]
+CMD ["-h"]
