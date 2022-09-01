@@ -1,6 +1,6 @@
 user;x;1000;1000;myuser1;/home/user1; /bin/false
 john ;x ;1001 ;1001; John; /home/john ;/bin/false
-doe ;x ;1001 ;1001; Doe; /home/doe ; /bin/csh
+doe ;x ;1002 ;1002; Doe; /home/doe ; /bin/sh
 athena ;x ;1011 ;1011; Athena Jones; /home/ajones ; /bin/sh
-pilgrim ;x ;2011 ;2011; Scott Pilgrim; /home/spilgrim ; /bin/sh
+pilgrim ;x ;2012 ;2012; Scott Pilgrim; /home/spilgrim ; /bin/sh
 laverne; x ; 2020;2020; LaVerne;/home/LaVerne;/bin/bash
