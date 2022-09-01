@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/ubi9/python-39
-MAINTAINER RHEL8 Student <student@redhat.com>
+MAINTAINER RHEL9 Student <student@redhat.com>
 
 LABEL name="yq image" \
   maintainer="student _AT_ redhat.com" \
