@@ -57,6 +57,22 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Windows and Linux Penetration Testing from Scratch - Second Edition [[Packt]](https://www.packtpub.com/product/windows-and-linux-penetration-testing-from-scratch-second-edition/9781801815123) [[Amazon]](https://www.amazon.com/Windows-Linux-Penetration-Testing-Scratch/dp/1801815127)
 
+## Errata
+ * Page 92 (Under "We can create our first shell script.."): echo ''hello world!'' _should be_  echo 'hello world!'
+ * Page 93 (Under "The script will look as follows"):
+ ```
+ #!/bin/bash
+PLACE=''world''
+echo ''hello $PLACE!''
+```
+ _should be_
+ 
+ ```
+ #!/bin/bash
+PLACE='world'
+echo "hello $PLACE!"
+ ```
+
 ## Get to Know the Authors
 **Pablo Iranzo Gómez**
 He is a software engineer who started his Linux exposure while studying physics. He was also involved in LUGs and some projects related to HPC clusters and system administration and consultancy.
