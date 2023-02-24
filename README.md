@@ -34,7 +34,6 @@ The commands will look like the following:
 [user@rhel-instance ~]$ cp /usr/share/doc/systemd/* mysystemd/
 [user@rhel-instance ~]$ cd mysystemd/
 [user@rhel-instance mysystemd]$ ls
-
 ```
 
 **Following is what you need for this book:**
