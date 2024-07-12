@@ -75,6 +75,10 @@ _should be_
 PLACE='world'
 echo "hello $PLACE!"
 ```
+- Page 152 (Under "Configuring sudoers"): "Runas_AliasDB = oracle" should be "Runas_Alias DB = oracle"
+- Page 173 (Under "Configuring interfaces with nmtui"): "Dynamic Host Routing Protocol" should be "Dynamic Host Configuration Protocol"
+- Page 213 : "The preceding command" should be "The following command"
+- Page 213 : "yum history undo" should be "dnf history undo"
 
 ## Get to Know the Authors
 
